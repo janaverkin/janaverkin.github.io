@@ -1,0 +1,18 @@
+# Quarto build output (rebuilt in CI; never committed)
+/_site/
+/.quarto/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# NOTE: do NOT ignore /_freeze/ — committing it lets CI assemble the site
+# without re-running R code (see posts/_metadata.yml `freeze: true`).
+
+**/*.quarto_ipynb

@@ -1,0 +1,48 @@
+#---------------------------------------------------------------------------#
+# Title : Quarto website configuration for janaverkin.github.io
+# Author: Jan Averkin
+# Notes : Site-wide options. Pages are plain .qmd (Markdown). Deployment is
+#         handled in the cloud by .github/workflows/publish.yml on every push
+#         to `main`, so you normally never build the site by hand.
+#---------------------------------------------------------------------------#
+
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jan Averkin"
+  description: "Doctoral researcher in economics at ETH Zürich."
+  site-url: https://janaverkin.github.io
+  # Optional: turn on once you add a custom domain (see README)
+  # repo-url: https://github.com/janaverkin/janaverkin.github.io
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/janaverkin
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:averkinjan@gmail.com   # TODO: swap for your ETH email
+        aria-label: Email
+  page-footer:
+    center: |
+      &copy; 2026 Jan Averkin &middot; Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme: cosmo          # clean, light academic look; try: flatly, litera, journal
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    grid:
+      body-width: 900px

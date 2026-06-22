@@ -1,0 +1,8 @@
+# Options applied to every post in this folder.
+# Keep posts as: posts/<post-slug>/index.qmd  (one folder per post).
+
+freeze: true            # cache computational output; re-run only when code changes
+title-block-banner: true
+
+author: "Jan Averkin"
+toc: true

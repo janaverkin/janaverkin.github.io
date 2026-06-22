@@ -1,0 +1,39 @@
+---
+title: "Jan Averkin"
+subtitle: "Doctoral researcher in economics · ETH Zürich"
+about:
+  template: trestles
+  image: profile.jpg
+  image-shape: round
+  image-width: 13em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:averkinjan@gmail.com      # TODO: swap for your ETH email
+    - icon: github
+      text: GitHub
+      href: https://github.com/janaverkin
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/        # TODO: your Scholar profile URL
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/          # TODO: your LinkedIn URL
+---
+
+Welcome! I'm a doctoral researcher in economics at **ETH Zürich**. My work sits
+at the intersection of **development economics**, **social protection**, and the
+**economics of child labour**, with a regional focus on West Africa.
+
+I study how households in low-income, agricultural settings respond to policy —
+in particular how cash transfers reshape children's work, schooling, and
+household decision-making. My current research evaluates the effects of an
+unconditional cash transfer on child labour in cocoa-farming households in Ghana.
+
+Beyond research, I occasionally write here about things I'm working on, reading,
+or building. Take a look at the [Research](research.qmd) page for an overview of
+my projects, the [Blog](blog.qmd) for posts, or my [CV](cv.qmd).
+
+::: {.callout-note appearance="simple"}
+This site is a work in progress — content is still being filled in.
+:::

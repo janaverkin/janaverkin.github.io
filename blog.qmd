@@ -1,0 +1,14 @@
+---
+title: "Blog"
+subtitle: "Notes on research, projects, and the occasional tangent."
+listing:
+  contents: posts          # build the list from everything in posts/
+  sort: "date desc"        # newest first
+  type: default            # try: grid, table, default
+  categories: true         # show a category cloud / filter
+  sort-ui: false
+  filter-ui: false
+  feed: true               # generate an RSS feed at blog.xml
+page-layout: full
+title-block-banner: false
+---

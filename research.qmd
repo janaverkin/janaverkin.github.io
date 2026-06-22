@@ -1,0 +1,47 @@
+---
+title: "Research"
+toc: true
+toc-location: right
+---
+
+## Research interests
+
+- **Development economics** — household behaviour in low-income agricultural economies
+- **Social protection** — cash transfers and their effects on welfare and human capital
+- **Economics of child labour** — measurement, drivers, and policy responses
+- **Applied microeconometrics** — impact evaluation and causal inference in the field
+
+<!-- Edit the themes above to match how you'd describe your own agenda. -->
+
+
+## Working papers
+
+### Unconditional cash transfers and child labour in Ghana
+*with [co-authors]* · Draft available on request
+
+A randomized evaluation of a one-off unconditional cash transfer to
+cocoa-farming households in Ghana, tracking children's labour, schooling, and
+household decisions across survey rounds.
+
+> **Abstract.** *Add a 3–4 sentence abstract here.*
+
+[Draft (PDF)](#){.btn .btn-outline-primary .btn-sm} &nbsp;
+[Slides](#){.btn .btn-outline-primary .btn-sm} &nbsp;
+[Pre-registration](#){.btn .btn-outline-primary .btn-sm}
+
+<!--
+Duplicate the block above for each paper. Once a paper is public, replace the
+'#' links with real URLs (working-paper series, OSF/AEA RCT registry, etc.).
+-->
+
+
+## Work in progress
+
+- *Project title* — one-line description of the question and stage.
+- *Project title* — one-line description of the question and stage.
+
+
+## Pre-PhD / other work
+
+Use this section for policy reports, master's thesis, or pre-doctoral work you
+want visible but separate from the main agenda.

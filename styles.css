@@ -1,0 +1,22 @@
+/* Small visual tweaks on top of the `cosmo` theme. Edit freely. */
+
+/* A touch more breathing room and comfortable reading measure */
+body {
+  font-size: 1.02rem;
+  line-height: 1.6;
+}
+
+/* Softer, larger headings on the landing/about page */
+#title-block-header .title {
+  font-weight: 600;
+}
+
+/* Make navbar links a little calmer */
+.navbar {
+  font-weight: 500;
+}
+
+/* Outline buttons used for paper/CV links */
+.btn-sm {
+  margin-bottom: 0.35rem;
+}

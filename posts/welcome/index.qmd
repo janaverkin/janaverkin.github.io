@@ -1,0 +1,26 @@
+---
+title: "Hello, world"
+description: "A first post — what this site is for."
+date: "2026-06-22"
+categories: [meta]
+draft: false
+---
+
+This is the first post on my new site. I plan to use this space for short notes
+on my research, things I'm reading, and the occasional project or side interest.
+
+Because the site is built with [Quarto](https://quarto.org), posts can mix prose
+with live code. For example, here's a chunk of R — set `eval: true` and add R to
+the build (or just render locally and commit the output) to make it run:
+
+```{r}
+#| eval: false
+library(ggplot2)
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point() +
+  theme_minimal()
+```
+
+To add another post, copy the `posts/welcome/` folder, rename it, and edit the
+front matter (`title`, `date`, `categories`). The [Blog](../../blog.qmd) page
+picks it up automatically.

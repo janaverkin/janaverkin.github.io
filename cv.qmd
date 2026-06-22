@@ -1,0 +1,52 @@
+---
+title: "Curriculum Vitae"
+toc: true
+toc-location: right
+---
+
+[Download PDF]( cv.pdf ){.btn .btn-outline-primary}
+
+<!--
+Drop your PDF CV in this folder as `cv.pdf` and the button above will serve it.
+The structured version below is optional — keep it in sync, or delete it and
+rely on the PDF alone. Want an icon on the button? Install Font Awesome once
+(`quarto add quarto-ext/fontawesome`) and use `{{< fa file-pdf >}} Download PDF`.
+-->
+
+
+## Education
+
+**PhD in Economics** · ETH Zürich · 20XX–present
+: Dissertation: *working title*. Advisor: *name*.
+
+**MSc in [field]** · [University] · 20XX–20XX
+
+**BSc in [field]** · [University] · 20XX–20XX
+
+
+## Research
+
+- *List working papers, publications, and works in progress here, or link to the
+  [Research](research.qmd) page.*
+
+
+## Teaching
+
+- **[Course name]**, ETH Zürich — Teaching Assistant (Semester 20XX)
+
+
+## Presentations
+
+- *Conference / seminar*, Location, Year
+
+
+## Grants, awards & fellowships
+
+- *Award / grant name*, Year
+
+
+## Skills
+
+- **Languages:** *e.g. German (native), English (fluent), ...*
+- **Software:** R, Stata, LaTeX, Git
+- **Fieldwork:** survey design, data collection, field management

@@ -1,0 +1,33 @@
+# Builds the Quarto site in the cloud and publishes it to the `gh-pages`
+# branch on every push to `main`. You don't need Quarto installed for this to
+# work — GitHub installs it. (Local Quarto is only for previewing.)
+#
+# The site has no executable code by default, so this does NOT install R.
+# If you later add live R chunks, either render locally and commit /_freeze/,
+# or add the r-lib setup-r / setup-renv steps (see README).
+
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # allows the action to push to gh-pages
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

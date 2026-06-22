@@ -1,6 +1,7 @@
-# Quarto build output (rebuilt in CI; never committed)
+# Quarto scratch / intermediates (the published output lives in docs/ and IS committed)
 /_site/
 /.quarto/
+**/*_files/
 
 # R / RStudio
 .Rproj.user/
@@ -11,8 +12,5 @@
 # OS / editor cruft
 .DS_Store
 Thumbs.db
-
-# NOTE: do NOT ignore /_freeze/ — committing it lets CI assemble the site
-# without re-running R code (see posts/_metadata.yml `freeze: true`).
 
 **/*.quarto_ipynb

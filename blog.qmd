@@ -1,6 +1,7 @@
 ---
 title: "Blog"
 subtitle: "Notes on research, projects, and the occasional tangent."
+engine: markdown
 listing:
   contents: posts          # build the list from everything in posts/
   sort: "date desc"        # newest first

@@ -1,14 +1,16 @@
 #---------------------------------------------------------------------------#
 # Title : Quarto website configuration for janaverkin.github.io
 # Author: Jan Averkin
-# Notes : Site-wide options. Pages are plain .qmd (Markdown). Deployment is
-#         handled in the cloud by .github/workflows/publish.yml on every push
-#         to `main`, so you normally never build the site by hand.
+# Notes : Site-wide options. Pages are plain .qmd (Markdown). The site renders
+#         into docs/ (via `quarto render` or RStudio's Render button); GitHub
+#         Pages serves that docs/ folder directly from the `main` branch.
 #---------------------------------------------------------------------------#
 
 project:
   type: website
-  output-dir: _site
+  output-dir: docs          # GitHub Pages serves this folder directly from `main`
+  resources:
+    - .nojekyll             # tells GitHub Pages not to run Jekyll on the output
 
 website:
   title: "Jan Averkin"

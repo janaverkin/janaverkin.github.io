@@ -4,17 +4,18 @@ description: "A first post — what this site is for."
 date: "2026-06-22"
 categories: [meta]
 draft: false
+engine: markdown    # static post. To RUN R/Python here, change to: engine: knitr
 ---
 
 This is the first post on my new site. I plan to use this space for short notes
 on my research, things I'm reading, and the occasional project or side interest.
 
 Because the site is built with [Quarto](https://quarto.org), posts can mix prose
-with live code. For example, here's a chunk of R — set `eval: true` and add R to
-the build (or just render locally and commit the output) to make it run:
+with live code. By default this post renders as plain Markdown, so the R below is
+shown but not executed. To make a post actually *run* R and embed the output, set
+`engine: knitr` in its front matter and render locally (you have R installed):
 
-```{r}
-#| eval: false
+```r
 library(ggplot2)
 ggplot(mpg, aes(displ, hwy, colour = class)) +
   geom_point() +

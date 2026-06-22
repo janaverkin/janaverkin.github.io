@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Jan Averkin</title>
+<link>https://janaverkin.github.io/blog.html</link>
+<atom:link href="https://janaverkin.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Doctoral researcher in economics at ETH Zürich.</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Sun, 21 Jun 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Hello, world</title>
+  <dc:creator>Jan Averkin</dc:creator>
+  <link>https://janaverkin.github.io/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post on my new site. I plan to use this space for short notes on my research, things I’m reading, and the occasional project or side interest.</p>
+<p>Because the site is built with <a href="https://quarto.org">Quarto</a>, posts can mix prose with live code. By default this post renders as plain Markdown, so the R below is shown but not executed. To make a post actually <em>run</em> R and embed the output, set <code>engine: knitr</code> in its front matter and render locally (you have R installed):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(mpg, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(displ, hwy, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">colour =</span> class)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
+<p>To add another post, copy the <code>posts/welcome/</code> folder, rename it, and edit the front matter (<code>title</code>, <code>date</code>, <code>categories</code>). The <a href="../../blog.html">Blog</a> page picks it up automatically.</p>
+
+
+
+ ]]></description>
+  <category>meta</category>
+  <guid>https://janaverkin.github.io/posts/welcome/</guid>
+  <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

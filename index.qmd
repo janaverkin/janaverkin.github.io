@@ -1,6 +1,7 @@
 ---
 title: "Jan Averkin"
 subtitle: "Doctoral researcher in economics · ETH Zürich"
+engine: markdown          # no R code on this page → skip knitr (faster, Dropbox-safe)
 about:
   template: trestles
   image: profile.jpg

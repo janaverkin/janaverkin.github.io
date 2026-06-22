@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+engine: markdown
 toc: true
 toc-location: right
 ---

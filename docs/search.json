@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Development economics — household behaviour in low-income agricultural economies\nSocial protection — cash transfers and their effects on welfare and human capital\nEconomics of child labour — measurement, drivers, and policy responses\nApplied microeconometrics — impact evaluation and causal inference in the field"
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "Development economics — household behaviour in low-income agricultural economies\nSocial protection — cash transfers and their effects on welfare and human capital\nEconomics of child labour — measurement, drivers, and policy responses\nApplied microeconometrics — impact evaluation and causal inference in the field"
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working papers",
+    "text": "Working papers\n\nUnconditional cash transfers and child labour in Ghana\nwith [co-authors] · Draft available on request\nA randomized evaluation of a one-off unconditional cash transfer to cocoa-farming households in Ghana, tracking children’s labour, schooling, and household decisions across survey rounds.\n\nAbstract. Add a 3–4 sentence abstract here.\n\nDraft (PDF)   Slides   Pre-registration"
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in progress",
+    "text": "Work in progress\n\nProject title — one-line description of the question and stage.\nProject title — one-line description of the question and stage."
+  },
+  {
+    "objectID": "research.html#pre-phd-other-work",
+    "href": "research.html#pre-phd-other-work",
+    "title": "Research",
+    "section": "Pre-PhD / other work",
+    "text": "Pre-PhD / other work\nUse this section for policy reports, master’s thesis, or pre-doctoral work you want visible but separate from the main agenda."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jan Averkin",
+    "section": "",
+    "text": "Welcome! I’m a doctoral researcher in economics at ETH Zürich. My work sits at the intersection of development economics, social protection, and the economics of child labour, with a regional focus on West Africa.\nI study how households in low-income, agricultural settings respond to policy — in particular how cash transfers reshape children’s work, schooling, and household decision-making. My current research evaluates the effects of an unconditional cash transfer on child labour in cocoa-farming households in Ghana.\nBeyond research, I occasionally write here about things I’m working on, reading, or building. Take a look at the Research page for an overview of my projects, the Blog for posts, or my CV.\n\n\n\n\n\n\nThis site is a work in progress — content is still being filled in."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Hello, world\n\n\n\nmeta\n\n\n\nA first post — what this site is for.\n\n\n\n\n\nJun 22, 2026\n\n\nJan Averkin\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPhD in Economics · ETH Zürich · 20XX–present\n\nDissertation: working title. Advisor: name.\n\n\nMSc in [field] · [University] · 20XX–20XX\nBSc in [field] · [University] · 20XX–20XX"
+  },
+  {
+    "objectID": "cv.html#research",
+    "href": "cv.html#research",
+    "title": "Curriculum Vitae",
+    "section": "Research",
+    "text": "Research\n\nList working papers, publications, and works in progress here, or link to the Research page."
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\n[Course name], ETH Zürich — Teaching Assistant (Semester 20XX)"
+  },
+  {
+    "objectID": "cv.html#presentations",
+    "href": "cv.html#presentations",
+    "title": "Curriculum Vitae",
+    "section": "Presentations",
+    "text": "Presentations\n\nConference / seminar, Location, Year"
+  },
+  {
+    "objectID": "cv.html#grants-awards-fellowships",
+    "href": "cv.html#grants-awards-fellowships",
+    "title": "Curriculum Vitae",
+    "section": "Grants, awards & fellowships",
+    "text": "Grants, awards & fellowships\n\nAward / grant name, Year"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages: e.g. German (native), English (fluent), …\nSoftware: R, Stata, LaTeX, Git\nFieldwork: survey design, data collection, field management"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Hello, world",
+    "section": "",
+    "text": "This is the first post on my new site. I plan to use this space for short notes on my research, things I’m reading, and the occasional project or side interest.\nBecause the site is built with Quarto, posts can mix prose with live code. By default this post renders as plain Markdown, so the R below is shown but not executed. To make a post actually run R and embed the output, set engine: knitr in its front matter and render locally (you have R installed):\nlibrary(ggplot2)\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point() +\n  theme_minimal()\nTo add another post, copy the posts/welcome/ folder, rename it, and edit the front matter (title, date, categories). The Blog page picks it up automatically."
+  }
+]

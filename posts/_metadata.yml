@@ -1,7 +1,8 @@
 # Options applied to every post in this folder.
 # Keep posts as: posts/<post-slug>/index.qmd  (one folder per post).
+# If a post runs R/Python (engine: knitr/jupyter), add `freeze: true` here and
+# commit the generated _freeze/ folder.
 
-freeze: true            # cache computational output; re-run only when code changes
 title-block-banner: true
 
 author: "Jan Averkin"

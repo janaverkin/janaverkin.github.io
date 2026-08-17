@@ -9,8 +9,8 @@
 <link>https://janaverkin.github.io/blog.html</link>
 <atom:link href="https://janaverkin.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Doctoral researcher in economics at ETH Zürich.</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Sun, 21 Jun 2026 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 22 Jun 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Hello, world</title>
   <dc:creator>Jan Averkin</dc:creator>
@@ -50,7 +50,7 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div></div>
  ]]></description>
   <category>meta</category>
   <guid>https://janaverkin.github.io/posts/welcome/</guid>
-  <pubDate>Sun, 21 Jun 2026 22:00:00 GMT</pubDate>
+  <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

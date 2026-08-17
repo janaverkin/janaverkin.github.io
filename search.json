@@ -18,7 +18,7 @@
     "href": "research.html#working-papers",
     "title": "Research",
     "section": "Working papers",
-    "text": "Working papers\n\nUnconditional cash transfers and child labour in Ghana\nwith [co-authors] · Draft available on request\nA randomized evaluation of a one-off unconditional cash transfer to cocoa-farming households in Ghana, tracking children’s labour, schooling, and household decisions across survey rounds.\n\nAbstract. Add a 3–4 sentence abstract here.\n\nDraft (PDF)   Slides   Pre-registration"
+    "text": "Working papers\n\nUnconditional cash transfers and child labour in Ghana\nwith Isabel Günther and Edward Asiedu · Draft available on request\nA randomized evaluation of a one-off unconditional cash transfer to cocoa-farming households in Ghana, tracking children’s labour, schooling, and household decisions across survey rounds.\n\nAbstract. This paper studies whether unconditional cash transfers reduce hazardous child labor in cocoa-farming households. We evaluate a one-off transfer of GHS~500 to households across 55 cocoa-growing villages in Ghana using a cluster-randomized design and child-reported short-recall measures of hazardous work. Contrary to the standard poverty-reduction prediction, the transfer increases hazardous child labor in cocoa by 9.2 percentage points, a 26% rise relative to the control mean. The effect is specific to cocoa work, with no corresponding increase in hazardous labor outside cocoa, and is robust across the full sample and cocoa-household subsample. Mechanism evidence suggests that the transfer relaxes household budget constraints, raising spending on schooling, health, and non-farm investment, but does not increase adult labor hiring, farm inputs, land cultivated, or cocoa output. Instead, treated households report more frequent but smaller cocoa harvests, consistent with a short-run reorganization of harvest labor that draws more children into cocoa work. The findings show that in agricultural households, cash transfers can simultaneously support human-capital spending and increase child labor when liquidity interacts with seasonal production demands.\n\nDraft (PDF)   Slides   Pre-registration"
   },
   {
     "objectID": "research.html#work-in-progress",
@@ -42,11 +42,11 @@
     "text": "Welcome! I’m a doctoral researcher in economics at ETH Zürich. My work sits at the intersection of development economics, social protection, and the economics of child labour, with a regional focus on West Africa.\nI study how households in low-income, agricultural settings respond to policy — in particular how cash transfers reshape children’s work, schooling, and household decision-making. My current research evaluates the effects of an unconditional cash transfer on child labour in cocoa-farming households in Ghana.\nBeyond research, I occasionally write here about things I’m working on, reading, or building. Take a look at the Research page for an overview of my projects, the Blog for posts, or my CV.\n\n\n\n\n\n\nThis site is a work in progress — content is still being filled in."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Hello, world",
     "section": "",
-    "text": "Hello, world\n\n\n\nmeta\n\n\n\nA first post — what this site is for.\n\n\n\n\n\nJun 22, 2026\n\n\nJan Averkin\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post on my new site. I plan to use this space for short notes on my research, things I’m reading, and the occasional project or side interest.\nBecause the site is built with Quarto, posts can mix prose with live code. By default this post renders as plain Markdown, so the R below is shown but not executed. To make a post actually run R and embed the output, set engine: knitr in its front matter and render locally (you have R installed):\nlibrary(ggplot2)\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point() +\n  theme_minimal()\nTo add another post, copy the posts/welcome/ folder, rename it, and edit the front matter (title, date, categories). The Blog page picks it up automatically."
   },
   {
     "objectID": "cv.html",
@@ -98,10 +98,10 @@
     "text": "Skills\n\nLanguages: e.g. German (native), English (fluent), …\nSoftware: R, Stata, LaTeX, Git\nFieldwork: survey design, data collection, field management"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Hello, world",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "This is the first post on my new site. I plan to use this space for short notes on my research, things I’m reading, and the occasional project or side interest.\nBecause the site is built with Quarto, posts can mix prose with live code. By default this post renders as plain Markdown, so the R below is shown but not executed. To make a post actually run R and embed the output, set engine: knitr in its front matter and render locally (you have R installed):\nlibrary(ggplot2)\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point() +\n  theme_minimal()\nTo add another post, copy the posts/welcome/ folder, rename it, and edit the front matter (title, date, categories). The Blog page picks it up automatically."
+    "text": "Hello, world\n\n\n\nmeta\n\n\n\nA first post — what this site is for.\n\n\n\n\n\nJun 22, 2026\n\n\nJan Averkin\n\n\n\n\n\nNo matching items"
   }
 ]

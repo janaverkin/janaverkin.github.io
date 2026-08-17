@@ -47,8 +47,8 @@ demonstrate that production-side labor subsidies can substantially reduce child 
 
 ## Work in progress
 
-- *Project title* — one-line description of the question and stage.
-- *Project title* — one-line description of the question and stage.
+- *Can Higher Yields Deliver a Living Income? Productivity Growth, Market Feedback, and Distributional Dynamics in
+Ghana’s Cocoa Sector* — I develop a dynamic equilibrium model of the world cocoa market to analyze if the cocoa sector's higher yield strategy can succeed in getting cocoa farmers above the Living Income threshold in Ghana. 
 
 
 ## Pre-PhD / other work

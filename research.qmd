@@ -21,8 +21,8 @@ toc-location: right
 *with Isabel Günther* and *Edward Asiedu* · Draft available on request
 
 A randomized evaluation of a one-off unconditional cash transfer to
-cocoa-farming households in Ghana, tracking children's labour, schooling, and
-household decisions across survey rounds.
+cocoa-farming households in Ghana, tracking children's labor, schooling, and
+household decisions.
 
 > **Abstract.** This paper studies whether unconditional cash transfers reduce hazardous child labor in cocoa-farming households. We evaluate a one-off transfer of GHS~500 to households across 55 cocoa-growing villages in Ghana using a cluster-randomized design and child-reported short-recall measures of hazardous work. Contrary to the standard poverty-reduction prediction, the transfer increases hazardous child labor in cocoa by 9.2 percentage points, a 26\% rise relative to the control mean. The effect is specific to cocoa work, with no corresponding increase in hazardous labor outside cocoa, and is robust across the full sample and cocoa-household subsample. Mechanism evidence suggests that the transfer relaxes household budget constraints, raising spending on schooling, health, and non-farm investment, but does not increase adult labor hiring, farm inputs, land cultivated, or cocoa output. Instead, treated households report more frequent but smaller cocoa harvests, consistent with a short-run reorganization of harvest labor that draws more children into cocoa work. The findings show that in agricultural households, cash transfers can simultaneously support human-capital spending and increase child labor when liquidity interacts with seasonal production demands.
 
